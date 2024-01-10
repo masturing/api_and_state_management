@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /// [*] Color scheme yang digunakan pada aplikasi
 /// TODO: Ubah warna sesuai dengan design yang diinginkan
-class ColorScheme {
+class CustomColorScheme {
   static const primary = Color(0xFF6200EE);
   static const primaryVariant = Color(0xFF3700B3);
   static const secondary = Color(0xFF03DAC6);
