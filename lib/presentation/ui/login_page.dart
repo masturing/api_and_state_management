@@ -3,6 +3,8 @@ import 'package:api_and_state_management/data/repositories/api/interceptor/inter
 import 'package:api_and_state_management/presentation/widgets/default_layout.dart';
 import 'package:flutter/material.dart';
 
+import '../../data/repositories/cabang_repository.dart';
+
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -14,8 +16,8 @@ class _LoginPageState extends State<LoginPage> {
   @override
   void initState() {
     // TODO: implement initState
-    authLogin();
-
+    // authLogin();
+    CabangRepository().getAllCabang();
     super.initState();
   }
 

@@ -29,7 +29,7 @@ class Cabang {
       telp: json['telp'],
       description: json['description'],
       rating: json['rating'],
-      img_url: Img.fromJson(json['img_url']),
+      img_url: json['img_url'] != null ? Img.fromJson(json['img_url']) : Img(),
     );
   }
 
