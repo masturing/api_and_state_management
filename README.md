@@ -1,3 +1,3 @@
 # api_and_state_management
 
-A new Flutter project.
+Base project untuk basic state management flutter dan api, ikut langkah yang ada pada komentar 
